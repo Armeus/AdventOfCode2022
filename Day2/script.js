@@ -131,7 +131,7 @@ function stratPoints(arr) {
   return roundTotal;
 }
 
-// Further split array to funtionally read one line at a time
+// Further split array into array of two letters
 for (const round of rounds) {
   pointTotal += points(round.split(" "));
   stratTotal += stratPoints(round.split(" "));
